@@ -1,0 +1,40 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+header.web {
+  background-image: url('header.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+}
+
+header.web h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+hr{
+  max-width: 65px;
+  border-width: 3px;
+  border-color: coral;
+}
+
+header.web hr {
+  margin-top: 180px;
+  margin-bottom: 35px;
+}
+
+.btn-danger {
+  background-color: coral;
+  border-color: coral;
+}
+
+.btn-danger:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
